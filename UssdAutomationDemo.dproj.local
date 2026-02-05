@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2026-02-04 15:06:09.651,=F:\2050\Unit1.pas</Transaction>
+    <Transaction>2026-02-04 15:06:32.724,F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\UssdAutomationDemo.dproj=F:\2050\Project1.dproj</Transaction>
+    <Transaction>2026-02-04 15:16:15.496,F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Model\Model.Database.pas=</Transaction>
+    <Transaction>2026-02-04 15:16:23.262,=F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Unit1.pas</Transaction>
+    <Transaction>2026-02-04 15:16:43.036,F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Model\Model.Database.dfm=F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Unit1.dfm</Transaction>
+    <Transaction>2026-02-04 15:16:43.036,F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Model\Model.Database.pas=F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Unit1.pas</Transaction>
+    <Transaction>2026-02-04 15:28:55.401,F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Model\Model.Database.pas=</Transaction>
+    <Transaction>2026-02-04 15:29:15.673,=F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Unit1.pas</Transaction>
+    <Transaction>2026-02-04 15:29:22.814,=F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Unit1.pas</Transaction>
+    <Transaction>2026-02-04 15:29:30.942,F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Model\Model.Database.dfm=F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Unit1.dfm</Transaction>
+    <Transaction>2026-02-04 15:29:30.942,F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Model\Model.Database.pas=F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Unit1.pas</Transaction>
+    <Transaction>2026-02-04 15:47:41.529,=F:\2050\Lang C Lessons\ObjectPascal\Android-NDK Demos\CalculatorDemo\Java\Output\NativeCalcLib.jar</Transaction>
+    <Transaction>2026-02-04 15:47:51.595,F:\2050\Lang C Lessons\ObjectPascal\Android-NDK Demos\CalculatorDemo\Java\Output\NativeCalcLib.jar=</Transaction>
+    <Transaction>2026-02-04 15:48:06.034,=F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Java\Output\UssdLib.jar</Transaction>
+    <Transaction>2026-02-04 18:36:55.826,=F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\API\API.Android.Permissions.pas</Transaction>
+    <Transaction>2026-02-04 18:38:40.399,F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\API\API.Android.Permissions.pas=</Transaction>
+    <Transaction>2026-02-04 18:39:01.433,=F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\API\Permissions\API.Android.Permissions.Interfaces.pas</Transaction>
+    <Transaction>2026-02-04 18:39:01.699,=F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\API\Permissions\API.Android.Permissions.pas</Transaction>
+    <Transaction>2026-02-05 00:15:09.445,F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Java\Output\UssdLib.jar=</Transaction>
+    <Transaction>2026-02-05 00:15:19.466,=F:\2050\Lang C Lessons\ObjectPascal\USSD\UssdAutomationDemo\Java\Output\UssdLib.jar</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile Android="192.168.1.3:39057"/>
+  </ActiveMobileDevice>
+</BorlandProject>

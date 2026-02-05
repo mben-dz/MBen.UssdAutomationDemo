@@ -1,0 +1,131 @@
+object LytUSSD: TLytUSSD
+  Size.Width = 360.000000000000000000
+  Size.Height = 640.000000000000000000
+  Size.PlatformDefault = False
+  object VertScrollBox: TVertScrollBox
+    Align = Client
+    Size.Width = 360.000000000000000000
+    Size.Height = 640.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 360.000000000000000000
+    Viewport.Height = 640.000000000000000000
+    object LytHeader: TLayout
+      Align = Top
+      Size.Width = 360.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object LblTitle: TLabel
+        Align = MostTop
+        StyledSettings = [Family, FontColor]
+        Size.Width = 360.000000000000000000
+        Size.Height = 42.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = 'USSD Bridge Demo'
+        TabOrder = 0
+      end
+    end
+    object LytControls: TLayout
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 50.000000000000000000
+      Size.Width = 340.000000000000000000
+      Size.Height = 130.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object EdtUSSDCode: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        Text = '*222#'
+        TextSettings.Font.Size = 22.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 37.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Enter USSD Code'
+        StyledSettings = [Family, Style, FontColor]
+      end
+      object CmbSimSlot: TComboBox
+        Align = Top
+        Margins.Top = 10.000000000000000000
+        Position.Y = 47.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+      object BtnExecuteUSSD: TButton
+        Align = Top
+        StyledSettings = [Family, FontColor]
+        Margins.Top = 10.000000000000000000
+        Position.Y = 89.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = 'Execute USSD Query via Java Bridge'
+        TextSettings.Font.Size = 15.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.Trimming = None
+        OnClick = BtnExecuteUSSDClick
+      end
+    end
+    object LytLog: TLayout
+      Align = Client
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 340.000000000000000000
+      Size.Height = 313.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object LblLog: TLabel
+        Align = Top
+        StyledSettings = [Family, Size, FontColor]
+        Size.Width = 340.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.StyleExt = {04070000000000000004000000}
+        Text = 'Bridge Logs'
+        TabOrder = 0
+      end
+      object MemoUssdReply: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        ReadOnly = True
+        TextSettings.WordWrap = True
+        Align = Client
+        Margins.Top = 5.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 291.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Viewport.Width = 336.000000000000000000
+        Viewport.Height = 287.000000000000000000
+      end
+    end
+    object MemoLog: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = MostBottom
+      Margins.Left = 7.000000000000000000
+      Margins.Right = 7.000000000000000000
+      Margins.Bottom = 7.000000000000000000
+      Position.X = 7.000000000000000000
+      Position.Y = 513.000000000000000000
+      Size.Width = 346.000000000000000000
+      Size.Height = 120.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Viewport.Width = 342.000000000000000000
+      Viewport.Height = 116.000000000000000000
+    end
+  end
+end
