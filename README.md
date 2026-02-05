@@ -239,7 +239,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Project Creator**: MBenDelphi
 
-- GitHub: [@MBenDelphi](https://github.com/MBenDelphi)
+- GitHub: [@MBenDelphi](https://github.com/mben-dz)
 - Email: your.email@example.com
 
 ## 🔗 Useful Resources
@@ -252,6 +252,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ⭐ **Star this repo** if you find it helpful!
 
-📺 **Watch the tutorial**: [YouTube Link](#)
+📺 **Watch the tutorial**: [YouTube Link](https://youtu.be/ahNVWi1FCJ8)
 
 💬 **Questions?** Open an issue!
